@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <h1 class="text-[#DE5607] text-3xl font-bold underline">hello alisha</h1>
+    <h1 class="text-blue-950 text-3xl font-bold underline leading-30">
+      Hello world!
+    </h1>
+    <p class="border-6 border-red-400 border-dashed bg-blue-200 rounded-full p-2">Lorem ipsum dolor sit amet consectetur.</p>
+    <br>
+    <h1 class="overline ">Lorem ipsum dolor sit amet consectetur.</h1>
+
+    <p class="bg-gradient-to-r w-[60vw] from-yellow-200 to-pink-500 shadow-xl shadow-violet-900">
+        gradient
+    </p>
+<br>
+    <p class="bg-blue-200 border-2 border-red-400 px-10 py-10 w-50 h-50 mx-auto">
+        padding and margin
+    </p>
+
+    <!-- overflow -->
+     <p class="bg-green-200 text-[30px] w-20 capitalize my-5 overflow-x-scroll">
+        this text is overflowing
+    </p>
+
+    <p class="bg-[linear-gradient(45deg,#1d3559,#457b9d,#d62828)]">
+        custom gradient
+    </p>
+
+    <br>
+
+    <!-- flex justify-center justify-end or start -->
+    <div class="border border-red-400 w-[80vw] h-[80vh] flex justify-center items-center gap-4 flex-wrap">
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+    </div>
+
+    <br>
+    <!-- grid -->
+    <div class="border border-red-400 w-[80vw] h-[80vh] 
+    grid grid-cols-4 gap-5">
+    <img class="w-full h-full" src="https://www.mercedes-benz.co.in/content/dam/retail/india/amgc_63image_adapt.jpg/1747843716381.jpg?im=Crop,rect=(0,597,1536,1536);Resize=(800,800)" alt="">
+        <div class="border col-span-2 row-span-2">2</div><!--kisi ko multiple rows ya column dena ho to-->
+        <div class="border">3</div>
+        <div class="border">4</div>
+        <div class="border">5</div>
+    </div>
+<br>
+    <p class="bg-blue-300 hover:bg-red-400 hover:border hover:shadow-xl shadow-violet-900 hover:text-white">
+        hover
+    </p>
+<br>
+<br>
+      <p class="bg-blue-300 active:bg-red-400 active:border active:shadow-xl shadow-violet-800 active:text-white animate-spin">
+        active
+    </p>
+    <br>
+    <br>
+    <!-- media query -->
+     <p class="bg-blue-300 sm:bg-red-300 md:bg-green-400 text-shadow-lg text-shadow-blue-600 colorRed  animate-ping">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto?</p>
+    <p>hi</p>
+</html>

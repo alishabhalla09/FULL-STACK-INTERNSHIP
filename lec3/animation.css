@@ -1,0 +1,83 @@
+h2{
+    font-style: w;
+    background: linear-gradient(45deg,pink, yellow, orange, blue); /*can give any angle or to top,bottom,left,right */
+    /* background-image: url(https://content.jdmagicbox.com/v2/comp/chennai/u5/044pxx44.xx44.190328210245.r7u5/catalogue/the-belgian-waffle-co--chennai-waffle-centres-15nwldq1qc.jpg); */
+    /* background-size: cover; */
+}
+
+h2:hover{
+    background: linear-gradient(135deg, rgb(141, 24, 71), rgba(120,120,238,0.8), rgb(64, 16, 153));
+}
+h2:active{
+    background: linear-gradient(135deg, rgb(47, 157, 135), rgba(149, 41, 122, 0.8), rgb(64, 16, 153));   
+}
+input{
+    background: linear-gradient(90deg, #f06,#fbf986); 
+}
+
+input:focus{
+     background: linear-gradient(135deg, rgb(47, 157, 135), rgba(149, 41, 122, 0.8), rgb(64, 16, 153)); 
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(228, 33, 157);
+    background-color: blueviolet;
+}
+#box:hover{
+    /* transform: rotateX(90deg); */
+    /* transform: rotate(5turn); */
+    /* border-radius: 50%; */
+    transition-duration: 2s;
+    /* transform: scale(1.05); */
+    transform: translateX(500px);
+    /* transition-delay: 1s; */
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.34, 0.08, 0.44, 1);
+     /* animation-iteration-count: infinite; */
+     /* animation-direction: alternate-reverse; */
+    animation-fill-mode: backwards;
+}
+/* 
+@keyframes move {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(500px);
+    }
+} */
+ 
+@keyframes move {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(500px);
+    }
+    50%{
+        transform: translateY(500px)rotate(360deg);
+    }
+    75%{
+        transform: translateX(0px) tr;
+    }
+    100%{
+        transform: translateY(0px)rotate(0deg);
+    }    
+}
+
+@media (width>=500px){
+
+}
+@media (min-width: 500px){
+    
+}

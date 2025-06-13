@@ -1,0 +1,109 @@
+/* #relative-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+}
+
+#relative-container > div{
+    border: 2px solid red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+/* #relative-container > div:nth-of-type(2){
+    background-color: aquamarine;
+} 
+
+#relative-container > div:nth-child(2){
+    position: relative;
+    top: 50px;
+    right: 100px;
+    left: 50px;
+    background-color: lightblue;
+
+} */
+
+
+
+/* #absolute-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    position: relative;
+} */
+
+/* #absolute-container > div{
+    border: 2px solid red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+ #absolute-container > div:nth-of-type(2){
+    background-color: aquamarine;
+} 
+
+#container{
+    border: solid blue 3px;
+    height: 300px;
+    width: 500px;
+    position:relative ;
+}
+
+#absolute-container > div:nth-child(2){
+    position: absolute;
+    
+    right: 15px;
+    background-color: rgb(90, 190, 128);
+
+} */
+
+
+/* 
+#fixed-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+}
+
+#fixed-container > div{
+    border: 2px solid red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+ #fixed-container > div:nth-of-type(2){
+    background-color: aquamarine;
+}  
+
+#fixed-container > div:nth-child(2){
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    
+}  */
+
+
+ #sticky-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+}
+
+#sticky-container > div{
+    border: 2px solid red;
+   
+}
+
+/* #relative-container > div:nth-of-type(2){
+    background-color: aquamarine;
+} */
+
+#sticky-container > p:nth-child(2){
+    position: sticky;
+    top: 50px;
+    background-color: lightblue;
+
+} 

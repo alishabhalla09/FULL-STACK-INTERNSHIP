@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    height: 140px;
+    width: 180px;
+    position: fixed;
+     
+}
+.header{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    display: flex;
+    height: 160px;
+   position: sticky;
+    top: 0px;
+    z-index: 100;
+  
+}
+.Feature{
+    display: flex;
+    position: absolute;
+    top: 65px;
+    right: 200px;
+    gap: 30px;
+    font-size: 30px;
+    padding: 10px;
+}
+.car{
+    width: 2300px;
+    
+}
+.image-container{
+    position: relative;
+}
+.image-container > img{
+    display: block;
+    width: 100vw;
+    border: 2px solid white;
+}
+.image-container > h1{
+    position: absolute;
+    color: aliceblue;
+}

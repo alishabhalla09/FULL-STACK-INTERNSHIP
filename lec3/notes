@@ -1,0 +1,24 @@
+grid(container property-tables(includes rows and column)
+any child can be placed in any cell
+repeat-kitne column bnane hai or kitne width ke bnane hai
+
+colours
+1.name
+2.rgb-red green blue
+3.rgba-red green blue alpha-colour change krte hai(it is for opacity)
+4.hexadecimal(#6 likhna isse jyada nahi hota)
+
+sudo selectors-hover,active(jab bhi ek element pe click krte hai),focus(it work on inputs)
+
+transition-change(element ek state se dusre state main jaata hai)
+transform(
+    1. rotate(jitni axis utne type main rotate krna)-rotatex(),rotateY(),rotate()(agr dono ko ek saath dena ho to xor y ko)
+    2. scale-scaleX(width pe effect),scaleY(height pe effect),scale(dono height or width pe effect)
+    3. translate-translateX(200(+ve)right ki side 200px move ho jaega(or agr-ve main ho to left ki taraf jaata hai)),translateY(200px(neeche jaega(bottom))-ve wali(top or upar jaega))
+    )
+
+in animation
+fill mode is position after the animation stops
+
+Media-Query
+responsive design
