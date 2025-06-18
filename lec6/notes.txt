@@ -9,3 +9,17 @@ some stages
 command->git add .
 . ->means all files
 2. git commit -> kya kaam kiya hai(it creates a version of code you want to save and save the code to local repository with a name)
+COMMAND:-
+*1*wim editor
+1. press i to write
+2. then type whatever u want
+3. press "esc" to exit writing
+4. type ":wq" to save commit
+then enter
+it will create local version
+
+*2*git commit -m "short description/commit name"->will run only one time
+
+3.git log->shows all your(commits/versions)
+4.git switch id(jis version main krna hai uski id) / git checout id(get id from git log)
+

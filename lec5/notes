@@ -45,10 +45,20 @@ console.log(temp);                                                   2. "this is
 
 Term	                 Meaning	                        Easy Example	                       Real-Life Example
 Declare	             You create the box	                      let toy;	                  Saying: “I’ll keep a toy here later.”
+
+
 Initialize	     Declare + give value at the same time	    let toy = "car";	        “Here’s my toy box, and I’m putting my red car in it now.”
+
+
 Assign	            Put a value inside a declared box	      toy = "car";	             After getting an empty box, you put your car inside.
+
+
 Reassign	               Change what’s inside	             toy = "train";             	Took the car out, put the train in.
+
+
 Reinitialize	 Assign a new value again at declaration	Not always allowed (depends on variable type)	"Let me make a new toy box and directly put something in again."
+
+
 Redeclare	        Try to make the same box again	         let toy; let toy; ❌	  Saying: “I’ll make another toy box named toy.” ❌ Not allowed with let or const
 
 
