@@ -1,0 +1,11 @@
+git(local->changes not) & github(cloud)
+1. why->
+
+2.types of version control->each commit is a version
+u->untracks changes
+git init-git initialize
+some stages
+1. staging area->rechecking ke liye(its a waiting lobby,so that we can recheck code.)
+command->git add .
+. ->means all files
+2. git commit -> kya kaam kiya hai(it creates a version of code you want to save and save the code to local repository with a name)

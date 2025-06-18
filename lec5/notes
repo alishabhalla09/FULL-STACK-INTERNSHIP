@@ -1,0 +1,54 @@
+toggle-agr already present hoga to show krga nahi to nahi krega
+Java Script
+only coding language in MERN
+node js is environment jisme java script run karwaenge
+javascript->1. its a weekly type language
+            2. no need to compile before running(no need to define data type)
+                code compiles line by line(this behaviour is known as syncronous behaviour-ek line run hoge result aaega tab hi next line pe jaega)
+            
+            compiler of js->v8 engine->browser main milta hai
+
+            data type->
+            1. number(int,float)
+            2. string
+            3. boolean(false values->0,null,undefined,false)
+            4. null
+            5. undefined
+
+            how to define variables->var,let,const
+
+REPL->Read Evaluate Print Loop
+
+           initialise        declare         reinitialise          redeclare       assign       reassign 
+           let a=10;          let a;                                                 b=5;         b=20;
+
+var         true               true             true                 true           true         true(global scope,no effect of block)
+let         true               true             false                false          true          true (block scope,cant )        
+const       true               false            false                false           true         false
+const->can not change value once it is initialised,but can be upadated
+
+SCOPES:-
+1. global
+2. block-{}
+var pe block ka koi effect nahi hota
+callstack-code kis way main run hota hai(ek baar main ek hi function execute krta ahi)
+2 phases are imp
+memory allocation - var are always undefined
+code execution
+
+
+console.log(temp);                                   read memory->temp-undefined
+var temp="this is temp";                             code execution->1. undefined    temp="this is temp"
+console.log(temp);                                                   2. "this is temp"
+
+
+
+Term	                 Meaning	                        Easy Example	                       Real-Life Example
+Declare	             You create the box	                      let toy;	                  Saying: “I’ll keep a toy here later.”
+Initialize	     Declare + give value at the same time	    let toy = "car";	        “Here’s my toy box, and I’m putting my red car in it now.”
+Assign	            Put a value inside a declared box	      toy = "car";	             After getting an empty box, you put your car inside.
+Reassign	               Change what’s inside	             toy = "train";             	Took the car out, put the train in.
+Reinitialize	 Assign a new value again at declaration	Not always allowed (depends on variable type)	"Let me make a new toy box and directly put something in again."
+Redeclare	        Try to make the same box again	         let toy; let toy; ❌	  Saying: “I’ll make another toy box named toy.” ❌ Not allowed with let or const
+
+

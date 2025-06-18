@@ -12,7 +12,7 @@ sudo selectors-hover,active(jab bhi ek element pe click krte hai),focus(it work 
 
 transition-change(element ek state se dusre state main jaata hai)
 transform(
-    1. rotate(jitni axis utne type main rotate krna)-rotatex(),rotateY(),rotate()(agr dono ko ek saath dena ho to xor y ko)
+    1. rotate(jitni axis utne type main rotate krna)-rotatex(),rotateY(),rotate()(agr dono ko ek saath dena ho to x or y ko)
     2. scale-scaleX(width pe effect),scaleY(height pe effect),scale(dono height or width pe effect)
     3. translate-translateX(200(+ve)right ki side 200px move ho jaega(or agr-ve main ho to left ki taraf jaata hai)),translateY(200px(neeche jaega(bottom))-ve wali(top or upar jaega))
     )

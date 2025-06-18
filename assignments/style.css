@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+ border: 1px solid black;
+    display: flex;
+    height: 70px;
+    width: 99vw;
+    position: fixed;
+    background-color: white;
+}
+
+#container{
+    display: flex;
+    height: 70px;
+font-size: 30px;}
+   #container:hover{
+    background-color: gray;
+    height: 50px;
+    margin: 10px;
+   }
+
+
+#container > img{
+    height: 70px ;
+}
+
+#container > div{
+    
+    padding: 10px;
+    right: 20px;
+}
+
+#container-2 > div{
+    display: inline-block;
+    padding: 10px;  
+    font-size:30px;
+}
+#container-2 > div:hover{
+    background-color: gray;
+    height: 30px;
+    margin: 10px;
+   }
+
+#div > h1{
+    position: absolute;
+    top: 50%;
+    right: 45%;
+
+    width: 10vw;
+    height: 10vh;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    justify-content: right;
+    font-size: 80px;
+
+}
+#div > h2{
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    width: 10vw;
+    height: 10vh;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    justify-content: right;
+    font-size: 80px;
+}
+#div > img{
+    height:122vh;
+}
+
+
+
+#house{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(4,50fr);
+    gap: 20px;
+
+}
+#house > div{
+  
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
+#house > div > img{
+    width: 100%;
+    
+    border: 1px solid black;
+} 
+#house > div > h1{
+    width: 10vw;
+    height: 10vh;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    
+}
+
+div > p{
+    font-size: xx-large;
+}
+
+
+#about{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(4,50fr);
+    gap: 20px;
+
+}
+#about > div{
+  
+    display: inline-block;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+#about > div > img{
+   width: 20vw;
+   height: 20vh;
+
+} 
+#about > div > div{
+   font-size: 60px;
+
+} 
+#about > div > h2{
+   font-size:40px;
+   color: grey;
+   text-decoration: none;
+} 
+#about > div > button{
+    width: 20vw;
+    height: 5vh;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+   font-size: 40px;
+    color: black;
+    position: absolute;
+}
+#about > div > button:hover{
+    background-color: grey;
+}
+
+#content > h1{
+    font-size: 50px;
+}
+
+
+#contact > form{
+    display: grid;
+    grid-template-rows: repeat(4,fr);
+}
+contact > msg{
+    border: 2px solid black;
+    height: 8vh;
+
+}
+#alisha > img{
+        height:122vh;
+        width: 100%;
+}
+#bhalla{
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    bottom: 50px;
+    font-size: 100px;
+}
+
+
+
+

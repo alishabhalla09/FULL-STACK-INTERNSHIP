@@ -44,7 +44,7 @@ top or bottom main top ko preference milti hai
 left or right main left ko milti hai(these are only for position)
 but baaki saaro(padding,margin,dimension) main usme last wale ko milti hai preference 
 
-absolute-isme overlapping type hoti hai(the element moves with respect to its recent parent ehich have a position else body)
+absolute-isme overlapping type hoti hai(the element moves with respect to its recent parent which have a position else body)
 
 
 fixed-used in navbar (elements is fixed on screen,elemnet move with respect to body(view port))

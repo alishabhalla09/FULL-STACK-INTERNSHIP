@@ -1,39 +1,38 @@
-/* #relative-container{
+ /* #relative-container{
     border: 2px solid black;
     height: 200px;
     width: 400px;
 }
-
-#relative-container > div{
+ #relative-container > div{
     border: 2px solid red;
     display: inline-block;
     height: 100px;
     width: 100px;
-}
+} 
 
-/* #relative-container > div:nth-of-type(2){
+#relative-container > div:nth-of-type(2){
     background-color: aquamarine;
 } 
 
-#relative-container > div:nth-child(2){
+ #relative-container > div:nth-child(2){
     position: relative;
     top: 50px;
     right: 100px;
     left: 50px;
+    bottom: 50px;
     background-color: lightblue;
+ }    */
 
-} */
-
-
-
-/* #absolute-container{
+ 
+/* 
+#absolute-container{
     border: 2px solid black;
     height: 200px;
     width: 400px;
     position: relative;
-} */
+} 
 
-/* #absolute-container > div{
+#absolute-container > div{
     border: 2px solid red;
     display: inline-block;
     height: 100px;
@@ -44,12 +43,12 @@
     background-color: aquamarine;
 } 
 
-#container{
+ #container{
     border: solid blue 3px;
     height: 300px;
     width: 500px;
-    position:relative ;
-}
+    position:absolute ;
+} 
 
 #absolute-container > div:nth-child(2){
     position: absolute;
@@ -57,11 +56,10 @@
     right: 15px;
     background-color: rgb(90, 190, 128);
 
-} */
+}   */
 
 
-/* 
-#fixed-container{
+/* #fixed-container{
     border: 2px solid black;
     height: 200px;
     width: 400px;
@@ -82,11 +80,12 @@
     position: fixed;
     top: 20px;
     right: 0px;
+    padding: 100px;
     
-}  */
+}   */
 
 
- #sticky-container{
+  #sticky-container{
     border: 2px solid black;
     height: 200px;
     width: 400px;
@@ -101,9 +100,9 @@
     background-color: aquamarine;
 } */
 
-#sticky-container > p:nth-child(2){
+#sticky-container > p:nth-child(4){
     position: sticky;
     top: 50px;
     background-color: lightblue;
 
-} 
+}  

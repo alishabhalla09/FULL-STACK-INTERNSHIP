@@ -1,16 +1,16 @@
 h2{
-    font-style: w;
+    font-style: italic;
     background: linear-gradient(45deg,pink, yellow, orange, blue); /*can give any angle or to top,bottom,left,right */
-    /* background-image: url(https://content.jdmagicbox.com/v2/comp/chennai/u5/044pxx44.xx44.190328210245.r7u5/catalogue/the-belgian-waffle-co--chennai-waffle-centres-15nwldq1qc.jpg); */
+    background-image: url(https://content.jdmagicbox.com/v2/comp/chennai/u5/044pxx44.xx44.190328210245.r7u5/catalogue/the-belgian-waffle-co--chennai-waffle-centres-15nwldq1qc.jpg);
     /* background-size: cover; */
 }
 
-h2:hover{
+/* h2:hover{
     background: linear-gradient(135deg, rgb(141, 24, 71), rgba(120,120,238,0.8), rgb(64, 16, 153));
-}
-h2:active{
+} */
+/* h2:active{
     background: linear-gradient(135deg, rgb(47, 157, 135), rgba(149, 41, 122, 0.8), rgb(64, 16, 153));   
-}
+} */
 input{
     background: linear-gradient(90deg, #f06,#fbf986); 
 }
@@ -26,13 +26,13 @@ input:focus{
     background-color: blueviolet;
 }
 #box:hover{
-    /* transform: rotateX(90deg); */
-    /* transform: rotate(5turn); */
-    /* border-radius: 50%; */
+    transform: rotateX(90deg);
+    transform: rotate(5turn);
+    border-radius: 50%;
     transition-duration: 2s;
-    /* transform: scale(1.05); */
-    transform: translateX(500px);
-    /* transition-delay: 1s; */
+    transform: scale(1.05);
+    transform: translateY(500px);
+    transition-delay: 1s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -47,13 +47,13 @@ input:focus{
      /* animation-direction: alternate-reverse; */
     animation-fill-mode: backwards;
 }
-/* 
-@keyframes move {
+
+/* @keyframes move {
     from{
         transform: translateX(0px);
     }
     to{
-        transform: translateX(500px);
+        transform: translateY(500px);
     }
 } */
  
