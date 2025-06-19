@@ -18,8 +18,28 @@ COMMAND:-
 then enter
 it will create local version
 
-*2*git commit -m "short description/commit name"->will run only one time
+*2*git commit -m "short description/commit name"->will run only one time->local repo main save kr dega
 
 3.git log->shows all your(commits/versions)
 4.git switch id(jis version main krna hai uski id) / git checout id(get id from git log)
+git checkout main->to go to the latest version
+
+linkedlist
+head->like jab hum checkout krte hai to vo hat jaata hai but uske liye hum main/master use krte hai
+
+BRANCHES:-
+so that more than 2 people can work on some project   (we can switch from one branch to another & whole code comes back to main branch)
+to create branch->git branch "name of branch"
+to see available branches or kis bbranch pe ho->git branch
+to switch between different branches->git checkout branch name / git switch branch name
+-M not because it changes the name of the branch(isse current branch ka name change hota hai)
+2 work together->git checkout -b branch_name->create branch and switch to this branch
+
+git remote add origin link->ye local or cloud ko dono ko connect kr dega(sync krna)
+git push origin branch name->jis branch ka name uska code push ho jaega
+git pull origin->branch name whose code you want
+git merge branch_name
+
+merge conflicts
+
 

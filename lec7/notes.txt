@@ -1,0 +1,65 @@
+jo assignment operator hai vo data type ko ignore krta hai(==bde byte ke data type ko chote main convert krta hai)
+=== to convert nahi krta 
+FUNCTIONS:-
+(mini program)set of instructions which can be reused 
+
+hoisting(imp)
+let a=10;
+console.log(a);
+function fun5(a,b,c){
+    return a+b+c;
+}
+res= fun5(2,3,4);
+console.log(res);
+
+  
+function fun5(a,b,c,d){
+    return a+b+c+d;
+}
+res= fun5(2,3,4,5);
+console.log(res);
+
+
+function can return anything
+
+MAP 
+a=Dead temporal zone 
+fun5 = (a,b,b){ // yei yha se ht ke niche chla jayega 
+    return a+b+c
+}
+res = undefined
+
+fun5 = (a,b,c,d){
+    return a+b+c+d
+}
+
+ab yei memory allocation phase se hmm cep(code execution phase mei jayega)
+yha pr 
+a ko value milegi 
+a=10
+uske bbad response res print hoga 
+than hmm ek or stake  bnayega map or cep ki 
+toh 
+
+fir whi kaam
+map mei a,b,c,d ko undefined value milegi 
+ab yei cep mei jayega 
+yha pr isko value milegi a=2,b=3,=c=4,d=undefined
+res=2+3+4+undefined = nan(not a number)
+ab jo upr wala cep tha code execution phase ab yei niche walee stake pe jayega or jo upr wala stake tha voh pop/delete hojega
+
+ab niche wale stake ke cep mei resp=nan aagya uske baad jb hmne res = fun5(2,3,4,5) kra toh resp mei 
+
+
+
+MAP-MEMORY ALLOCATION PHASE
+CEP-CODE EXECUTION PHASE
+
+HIGHER ORDER FUNCTIONS
+when we pass a function as a arguments(parameters) to another function is called higher order function
+call back functions are those which execute after a process
+these are function which runs only 
+eg.->image upload
+1.cloud pe jaake compress hogi
+2.database store
+3.UI pr show krna
