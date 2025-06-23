@@ -63,11 +63,81 @@ console.log(wearable);
 
 
 
-//Q:-
-new Promise((resolve)=>{
-    resolve(5);
+
+// Q. 
+new Promise((resolve) => {
+  resolve(5);
 })
-.then((num)=>{
-    console.log("first",num);
-    
+  .then((num) => {
+    console.log("First then:", num);
+    return num * 2;
+  })
+  .then((num) => {
+    console.log("Second then:", num);
+    return num - 3;
+  })
+  .then((num) => {
+    console.log("Final then:", num);
+  });
+
+  // ------------
+
+
+
+console.log("A");
+
+Promise.resolve().then(() => {
+  console.log("B");
+});
+
+console.log("C");
+
+setTimeout(() => {
+  console.log("D");
+}, 0);
+
+console.log("E");
+// // -------
+
+
+
+
+
+function checkNumber(num) {
+  return new Promise((resolve, reject) => {
+    if (num > 10) {
+      resolve("Number is big");
+    } else {
+      reject("Too small");
+    }
+  });
+}
+
+checkNumber(5)
+  .then((msg) => {
+    console.log("Resolved:", msg);
+  })
+  .catch((err) => {
+    console.log("Rejected:", err);
+  });
+// // -----------
+
+
+
+
+
+console.log("X");
+
+new Promise((resolve) => {
+  console.log("Y");
+  resolve();
 })
+  .then(() => {
+    console.log("Z");
+    return Promise.resolve("W");
+  })
+  .then((val) => {
+    console.log(val);
+  });
+
+console.log("End");
